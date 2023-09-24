@@ -2,11 +2,11 @@
   "name": "too-hot--backend",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "start": "ts-node src/index.ts",
+    "start": "ts-node src/app.ts",
     "build": "tsc",
-    "serve": "node dist/index.js",
+    "serve": "node dist/app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
